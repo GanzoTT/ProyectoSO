@@ -58,10 +58,33 @@ Genera una lista de procesos con tiempos de llegada y tiempos de ejecución alea
 
 ### 1. Requisitos
 
-- **Python 3.x**: Asegúrate de tener Python instalado. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
+    - **Python 3.x**: Asegúrate de tener Python instalado.
 
 ### 2. Clonar el repositorio
 
-```bash
-git clone https://github.com/usuario/algoritmos-planificacion-cpu.git
-cd algoritmos-planificacion-cpu
+    ```bash
+    git clone https://github.com/usuario/algoritmos-planificacion-cpu.git
+    cd algoritmos-planificacion-cpu
+
+### 3. Ejecutar el programa
+
+- Crea un archivo Python y copia el código del repositorio en él, o si ya lo tienes descargado, simplemente navega a la ubicación del archivo.
+
+- Ejecuta el archivo en la terminal con el siguiente comando:
+
+      python planificacion_cpu.py
+      
+### 4. Ejemplo de salida
+
+El programa generará procesos aleatorios y calculará el tiempo de espera promedio para cada algoritmo:
+
+    Procesos generados:
+    PID: 1, Arrival Time: 2, Burst Time: 5
+    PID: 2, Arrival Time: 3, Burst Time: 2
+    PID: 3, Arrival Time: 5, Burst Time: 7
+    PID: 4, Arrival Time: 6, Burst Time: 3
+    PID: 5, Arrival Time: 9, Burst Time: 4
+    
+    FCFS - Tiempo de espera promedio: 4.6
+    SJF - Tiempo de espera promedio: 3.2
+    Round Robin - Tiempo de espera promedio: 5.0
