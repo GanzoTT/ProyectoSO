@@ -62,7 +62,6 @@ Genera una lista de procesos con tiempos de llegada y tiempos de ejecución alea
 
 ### 2. Clonar el repositorio
 
-    ```bash
     git clone https://github.com/usuario/algoritmos-planificacion-cpu.git
     cd algoritmos-planificacion-cpu
 
